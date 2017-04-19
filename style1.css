@@ -1,0 +1,166 @@
+body {
+    background-image: url(images/fon3.jpg); /* Путь к фоновому изображению */
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+table {
+    width: 75%;
+    margin: auto;
+	text-align: center;
+	
+	
+}
+
+td {
+	border: 1px dotted #C04FAE;
+    padding: 15px;
+    opacity: 1;
+	
+	background: linear-gradient(to top, #FFC599, #FFFCF9);
+}
+
+#sp {
+	background: #FFFCF9;
+}
+
+#footer {
+    left: 0; bottom: 0; 
+    padding: 5px;  
+    width: 100%; 
+	height: 70px;
+	margin-top: -80px;
+	background: #FFC599;
+}
+
+#pp {
+	color: #9F2204;
+	text-indent: 21px;
+	font: 21px/1.5 Monotype Corsiva;
+}
+
+h3 {
+	color: #333;
+}
+
+h1 { 
+	color: #F90B6D; font-family: ‘Open Sans’, sans-serif; font-size: 34px; font-weight: 300; line-height: 40px; margin: 0 0 16px; 
+}
+
+#tx {
+	font-weight: bold;
+}
+
+#header {
+	color:  #A70099;
+	font:  bold 27px/1.5 Monotype Corsiva;
+}
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background: #FF5600;
+text-align: center;
+padding: 5px;
+position: fixed;
+bottom: 550px;
+right: 65px;
+cursor: pointer;
+display: none;
+color: #333;
+font-family: Monotype Corsiva;
+font-size: 15px;
+}
+
+
+* {box-sizing: border-box; margin: 0;}
+.widget {
+  padding: 20px 30px;
+  background: white;
+  font-family: Monotype Corsiva;
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #444;
+  transition: .3s linear;
+}
+.widget-list a:hover {color: #b99d61;}
+
+   .thumb img  {
+    border: 2px solid black; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: white; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+   
+.multiple-borders {
+  box-shadow: 0px 0px 0px 5px #000, 0px 0px 0px 10px #fff;
+} 
+
+   .img {
+    line-height: 1px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+
+.lists {
+	color: #696969;
+	font-size: 15pt;
+}
+
+* {box-sizing: border-box;}
+.caption-border {
+  width: 270px;
+  margin: 50px auto 0;
+  border: 3px solid #E5BF23;
+  background: white;
+  padding: 5px;
+}
+.caption-border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.caption-border figcaption {
+  padding: 5px;
+  color: white;
+  background: #E5BF23;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vkon {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:18px 20px 0px 0;
+	padding:0;
+	outline:none;
+	background:url(images/vk.png) 24px 0 no-repeat;}
